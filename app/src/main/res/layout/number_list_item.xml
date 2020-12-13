@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Saeed !-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_item_number"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="101dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal|top|left"
+        android:fontFamily="monospace"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_view_holder_instance"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="121dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center_vertical|center"
+        android:fontFamily="monospace"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:text="ViewHolder instance: 7" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="95dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        app:srcCompat="@drawable/bofa" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="151dp"
+        android:layout_height="71dp"
+        android:layout_gravity="bottom|right"
+        app:srcCompat="@drawable/button_image" />
+
+
+</FrameLayout>
